@@ -52,7 +52,8 @@ class Main
     startCustomerGUI_MVC( mlf );
     if ( many ) 
      startCustomerGUI_MVC( mlf );
-    startCashierGUI_MVC( mlf );
+    startCustomerGUI_MVC( mlf );
+    startCashierGUI_MVC( mlf ); //THIS LINE RESPONSIBLE FOR 2 CASHIER WINDOWS I JUST DONT KNOW WHY
     startCashierGUI_MVC( mlf );
     startBackDoorGUI_MVC( mlf );
     if ( many ) 
